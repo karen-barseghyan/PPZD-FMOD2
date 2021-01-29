@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{f0d7aeef-3ab1-4dd0-adf2-20b982737e03}">
+		<property name="assetPath">
+			<value>ambience/crickets_loop.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>77.621678004535141</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{32cca653-c70e-489f-8c27-6f4b2300f74c}</destination>
+		</relationship>
+	</object>
+</objects>

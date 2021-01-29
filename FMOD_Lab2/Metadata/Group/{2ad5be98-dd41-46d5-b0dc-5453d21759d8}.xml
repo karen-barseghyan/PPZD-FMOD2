@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerGroup" id="{2ad5be98-dd41-46d5-b0dc-5453d21759d8}">
+		<property name="name">
+			<value>Background</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{040ab551-552f-49d0-9a1d-0d9a1c354f63}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{a3e4284a-d2e8-44fa-87bd-7306f1e3063d}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{be3afacb-e422-43cf-9f08-43e0e7db4940}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{040ab551-552f-49d0-9a1d-0d9a1c354f63}">
+		<relationship name="effects">
+			<destination>{a4dafba1-e807-4043-ac4e-4085b0dfb0ec}</destination>
+			<destination>{79552857-6ee2-48c8-a3bc-d1da0d7c1d0e}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{a3e4284a-d2e8-44fa-87bd-7306f1e3063d}" />
+	<object class="MixerBusFader" id="{a4dafba1-e807-4043-ac4e-4085b0dfb0ec}" />
+	<object class="LowpassEffect" id="{79552857-6ee2-48c8-a3bc-d1da0d7c1d0e}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+	</object>
+</objects>

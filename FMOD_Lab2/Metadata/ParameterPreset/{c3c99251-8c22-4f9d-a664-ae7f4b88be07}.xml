@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{c3c99251-8c22-4f9d-a664-ae7f4b88be07}">
+		<property name="name">
+			<value>IDA</value>
+		</property>
+		<relationship name="folder">
+			<destination>{35d5f515-c75f-4a6c-b1e9-74bcf2d70182}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{0c1301c5-99b9-42a5-a232-1994449b0d9d}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{0c1301c5-99b9-42a5-a232-1994449b0d9d}">
+		<property name="maximum">
+			<value>100</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

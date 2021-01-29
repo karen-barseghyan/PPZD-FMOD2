@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="Bank" id="{792ae59b-0368-4531-8731-9c5ee5d2f081}">
+		<property name="name">
+			<value>2d_sidescroller_sounds</value>
+		</property>
+		<relationship name="folder">
+			<destination>{f0fed978-e700-4053-a249-7261073b165a}</destination>
+		</relationship>
+	</object>
+</objects>

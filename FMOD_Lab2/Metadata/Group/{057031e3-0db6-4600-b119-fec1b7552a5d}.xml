@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerGroup" id="{057031e3-0db6-4600-b119-fec1b7552a5d}">
+		<property name="name">
+			<value>Character</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{d19f1617-3102-4d37-a130-e4a15cafbd95}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{6f35f8c5-c631-473f-b63d-562f43bb4c15}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{be3afacb-e422-43cf-9f08-43e0e7db4940}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{d19f1617-3102-4d37-a130-e4a15cafbd95}">
+		<relationship name="effects">
+			<destination>{c5c961ce-a325-42b8-83b7-972a8e2a446a}</destination>
+			<destination>{c0682e38-91f0-47b7-91f4-6e4805e14c39}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{6f35f8c5-c631-473f-b63d-562f43bb4c15}" />
+	<object class="MixerBusFader" id="{c5c961ce-a325-42b8-83b7-972a8e2a446a}" />
+	<object class="LowpassEffect" id="{c0682e38-91f0-47b7-91f4-6e4805e14c39}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{b9a16eb0-55fb-40fe-b3a6-6b5fb436bbde}">
+		<property name="assetPath">
+			<value>ambience/Robert_Farmer_-_01_-_Turn_the_old_return_to_them.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>175.09877551020409</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{32cca653-c70e-489f-8c27-6f4b2300f74c}</destination>
+		</relationship>
+	</object>
+</objects>
